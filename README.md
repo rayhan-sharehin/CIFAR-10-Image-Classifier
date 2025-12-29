@@ -5,9 +5,8 @@ This project demonstrates a simplified Retrieval-Augmented Generation (RAG) syst
 
 ## Features
 - TF-IDF vectorization of documents
-- Cosine similarity retrieval (offline, no FAISS required)
+- Cosine similarity retrieval (offline)
 - Simulated answer generation to mimic RAG pipeline
-- Beginner-friendly, Kaggle-compatible
 
 ## Usage
 1. Run all notebook cells
