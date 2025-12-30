@@ -1,25 +1,28 @@
-# Document-Based Question Answering (Offline RAG)
+# CIFAR-10 Image Classification System
 
-## Overview
-This project demonstrates a simplified Retrieval-Augmented Generation (RAG) system using offline TF-IDF embeddings and cosine similarity. It retrieves the most relevant document chunks for a question and generates an answer by combining context.
+**Author:** Nazmul Islam Rayhan  
+**Role:** Student / ML & Computer Vision Enthusiast  
+
+
+# Project Overview
+This project implements a **CIFAR-10 Image Classification System** using **PyTorch**.  
+It classifies images into 10 classes:  
+
+`airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck`.
+
+The system includes:
+
+- **Data loading & preprocessing** using `torchvision.datasets.CIFAR10`.
+- **Deep learning model** built with PyTorch (CNN architecture).
+- **Training pipeline** with GPU/CPU support.
+- **Evaluation** with accuracy metrics and sample predictions.
+- **Deployment** using **Gradio** for interactive web demo.
 
 ## Features
-- TF-IDF vectorization of documents
-- Cosine similarity retrieval (offline)
-- Simulated answer generation to mimic RAG pipeline
 
-## Usage
-1. Run all notebook cells
-2. Update `documents` with your own data
-3. Call `answer_question("Your question")` to get answers
+- Predict classes for user-uploaded images.
+- Interactive Gradio interface with live demo.
+- Supports both CPU and GPU inference.
+- Offline-safe model loading for environments without internet.
 
-## Technologies
-- Python
-- scikit-learn (TF-IDF, cosine similarity)
-- NumPy
 
-## Notes
-This project simulates RAG logic in a fully offline setup, demonstrating understanding of:
-- Embeddings
-- Vector-based retrieval
-- Contextual answer generation
