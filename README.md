@@ -16,7 +16,7 @@ The system includes:
 - **Deep learning model** built with PyTorch (CNN architecture).
 - **Training pipeline** with GPU/CPU support.
 - **Evaluation** with accuracy metrics and sample predictions.
-- **Deployment** using **Gradio** for interactive web demo.
+- **Deployment** using **Docker** for interactive web demo.
 
 ## Features
 
