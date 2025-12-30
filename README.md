@@ -1,7 +1,7 @@
 # CIFAR-10 Image Classification System
 
 **Author:** Nazmul Islam Rayhan  
-**Role:** Student / ML & Computer Vision Enthusiast  
+**Role:** AI-ML Engineer
 
 
 ## Project Overview
