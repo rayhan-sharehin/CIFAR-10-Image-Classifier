@@ -4,7 +4,7 @@
 **Role:** Student / ML & Computer Vision Enthusiast  
 
 
-# Project Overview
+## Project Overview
 This project implements a **CIFAR-10 Image Classification System** using **PyTorch**.  
 It classifies images into 10 classes:  
 
