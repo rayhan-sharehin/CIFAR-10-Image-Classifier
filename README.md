@@ -7,10 +7,10 @@
 ## Project Overview
 This project implements a **CIFAR-10 Image Classification System** using **PyTorch**.  
 It classifies images into 10 classes:  
-
 `airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck`.
 
-The system includes:
+
+## The system includes:
 
 - **Data loading & preprocessing** using `torchvision.datasets.CIFAR10`.
 - **Deep learning model** built with PyTorch (CNN architecture).
