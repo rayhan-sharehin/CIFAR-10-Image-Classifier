@@ -6,9 +6,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 import io
 
-# --------------------
 # CNN Architecture (matches Kaggle trained model)
-# --------------------
 class SimpleCNN(nn.Module):
     def __init__(self):
         super().__init__()
@@ -30,16 +28,12 @@ class SimpleCNN(nn.Module):
         x = self.relu(self.fc1(x))
         return self.fc2(x)
 
-# --------------------
 # Load trained model
-# --------------------
 model = SimpleCNN()
 model.load_state_dict(torch.load("model.pth", map_location="cpu"))
 model.eval()
 
-# --------------------
 # FastAPI App
-# --------------------
 app = FastAPI()
 
 CLASS_NAMES = [
